@@ -7,13 +7,13 @@ It registers a provider, supports `/login` via Authentik OIDC device flow, and d
 ## Install from git
 
 ```bash
-pi install git:github.com/rokroskar/pi-sdsc-vllm
+pi install npm:pi-sdsc-vllm
 ```
 
 For project-local installation, run:
 
 ```bash
-pi install -l git:github.com/rokroskar/pi-sdsc-vllm
+pi install -l npm:pi-sdsc-vllm
 ```
 
 ## Use
