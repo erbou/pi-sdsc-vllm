@@ -1,7 +1,6 @@
 {
   "name": "pi-sdsc-vllm",
   "version": "0.1.0",
-  "private": true,
   "description": "Pi extension for the SDSC Authentik-protected OpenAI-compatible vLLM gateway.",
   "keywords": [
     "pi-package",
@@ -18,7 +17,6 @@
     ]
   },
   "peerDependencies": {
-    "@earendil-works/pi-ai": "*",
     "@earendil-works/pi-coding-agent": "*"
   }
 }
