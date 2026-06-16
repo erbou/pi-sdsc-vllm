@@ -84,24 +84,11 @@ const DEFAULT_OPENAI_COMPAT = {
 
 const DEFAULT_MODELS: ModelConfig[] = [
 	{
-		id: "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+		id: "Qwen/Qwen3.6-35B-A3B-FP8",
 		reasoning: true,
 		contextWindow: 262144,
 		input: ["text"],
 		compat: { thinkingFormat: "qwen" },
-	},
-	{
-		id: "cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
-		reasoning: true,
-		contextWindow: 192064,
-		input: ["text"],
-		compat: { thinkingFormat: "qwen" },
-	},
-	{
-		id: "cyankiwi/gemma-4-31B-it-AWQ-4bit",
-		reasoning: true,
-		contextWindow: 256000,
-		input: ["text"],
 	},
 ];
 

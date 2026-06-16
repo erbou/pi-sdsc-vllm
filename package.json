@@ -1,6 +1,6 @@
 {
   "name": "pi-sdsc-vllm",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Pi extension for the SDSC Authentik-protected OpenAI-compatible vLLM gateway.",
   "keywords": [
     "pi-package",
